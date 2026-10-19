@@ -1,0 +1,7 @@
+# Optional local STT via openai-whisper (Alec Radford et al., OpenAI)
+# WARNING: pulls PyTorch — can be 1-2 GB. Only install if the machine has capacity.
+# Also requires ffmpeg to be installed on the OS:
+#   macOS:  brew install ffmpeg
+#   Ubuntu: sudo apt install ffmpeg
+#   Windows: https://ffmpeg.org/download.html
+openai-whisper==20250625

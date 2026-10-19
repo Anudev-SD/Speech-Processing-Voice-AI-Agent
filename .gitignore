@@ -1,0 +1,29 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# macOS files
+.DS_Store
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# Generated output files
+outputs/
+
+# Local model files
+*.onnx
+*.pt
+*.pth

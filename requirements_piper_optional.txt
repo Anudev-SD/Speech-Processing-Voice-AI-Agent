@@ -1,0 +1,7 @@
+# Optional local TTS via Piper (Rhasspy project)
+# WARNING: wheels are available for most platforms but not all.
+# If installation fails, use piper CLI instead:
+#   https://github.com/rhasspy/piper/releases
+# Voice models (.onnx + .onnx.json) must be downloaded separately:
+#   https://huggingface.co/rhasspy/piper-voices
+piper-tts==1.4.2
